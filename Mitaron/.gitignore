@@ -1,1 +1,17 @@
 .DS_Store
+
+# Ignore all CSV and Parquet files
+*.csv
+*.parquet
+
+# Ignore CSV and Parquet files anywhere in the project
+**/*.csv
+**/*.parquet
+
+# Ignoring Folders and Files
+JAST_RAW/
+Parquet_fresh/
+oda_code_did (1).ipynb
+Salary_norm.ipynb
+見ないで Colab.ipynb
+run_did_psm_ipw_loop.py
